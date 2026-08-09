@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #0B1F3A, #1F3C88);
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #D4AF37;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about p {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #D4AF37;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.15);
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills li {
+    background: rgba(255,255,255,0.1);
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}

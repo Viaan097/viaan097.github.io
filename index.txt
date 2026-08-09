@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijay | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Abhijay</h1>
+    <p>Student Developer • Automation Builder • AI Enthusiast</p>
+</header>
+
+<section class="hero">
+    <h2>Building Smart Solutions for Real Problems</h2>
+    <p>I design and build automation tools that simplify school workflows and improve efficiency using Python and AI.</p>
+</section>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a student developer who worked on automating administrative workflows in my school.
+        I focus on building practical tools like contract generators, inventory systems, and OCR-based data extraction systems.
+    </p>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>📄 Contract Generator System</h3>
+        <p>
+            Built a Python-based system that generates student contracts automatically using Excel and Word templates.
+            Includes formatting preservation, UI interface, and error handling.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>📦 Unishop Inventory System</h3>
+        <p>
+            Designed an inventory and sales tracking system for school uniforms and books.
+            Simplified stock management for non-technical staff.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🧾 Invoice Automation Tool</h3>
+        <p>
+            Automated manual invoice generation process previously done in Tally using a custom Python solution.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🔍 OCR Data Extraction Tool</h3>
+        <p>
+            Built a system using PaddleOCR and pdf2image to extract structured data from scanned PDFs and export it to Excel.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🎂 Birthday Card Generator</h3>
+        <p>
+            Designed a system to generate personalized birthday cards using templates, student data, and automated image placement.
+        </p>
+    </div>
+
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python Automation</li>
+        <li>UI Design (Tkinter)</li>
+        <li>OCR & Image Processing</li>
+        <li>Excel & Data Handling</li>
+        <li>AI Tools Integration</li>
+        <li>Workflow Automation</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Abhijay • Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
